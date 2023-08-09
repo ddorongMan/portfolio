@@ -1,0 +1,24 @@
+.node{
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 1% 1fr;
+}
+
+.leftLeaf{
+  position: relative;
+  display: block;
+  text-align: right;
+}
+
+.stem{
+  position: static;
+  display: block;
+  background-color: black;
+  
+}
+
+.rightLeaf{
+  position: relative;
+  display: block;
+  
+}
